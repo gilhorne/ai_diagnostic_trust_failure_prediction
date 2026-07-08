@@ -14,7 +14,7 @@ from sklearn.metrics import roc_auc_score, accuracy_score, recall_score, precisi
 #import dataset, convert to dataframe, print first 10 rows:
 raw_data_path = "data/raw/heart_failure_clinical_records_dataset.csv"
 df = pd.read_csv(raw_data_path)
-print(df.head(10))
+#print(df.head(10))
 
 #split dataset into features and target varibles:
 X = df.drop(columns=["DEATH_EVENT"])
