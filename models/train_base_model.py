@@ -36,4 +36,3 @@ preprocessor = ColumnTransformer(
                 ]), numeric_features)
     ]
 )
-
